@@ -1,8 +1,6 @@
 import asyncio
 from typing import List
-
-from readchar import readkey
-
+from readchar import *
 from api import pokeapi
 from config.config import TEXT
 from game.pokemon import Pokemon
